@@ -833,3 +833,120 @@ margin: 0 auto;
     background-color: var(--section-hover-focus);
     border: none;
 }
+.container-size{
+    min-width: 320px;
+    max-width: 428px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+@media screen and (min-width: 768px){
+    .container-size{
+    max-width: 767.95px;
+    }
+   
+}
+@media screen and (min-width: 1158px) {
+    .container-size {
+        max-width: 1158px;
+        }
+    }
+   
+
+.container-mobail{
+    min-width: 320px;
+        max-width: 1170px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction:column ;
+    width: 100vw;
+    height: 100vh;
+    padding: 80px 35px 40px 40px;
+    background-color: #FFFFFF;
+    z-index: 999;
+
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+}
+
+.menu-container.is-open {
+    transform: translateX(0);
+}
+
+.menu-container .menu-toggle {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width:24px ;
+    height: 24px;
+    background-color: transparent;
+    border: 1px solid var(--brand-color);
+    border-radius: 50%;
+}
+.menu-toggle-icons{
+    stroke: var(--brand-color);
+}
+.mobile-menu-link{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11em;
+        letter-spacing: 0.2em;
+        text-transform: capitalize;
+
+}
+.mobile-menu-link.aktive{
+    color: var(--OCEAN, #404BBF);
+}
+.mobaile-menu{
+    margin-bottom: auto;
+}
+.movile-menu-items:not(:last-child){
+ margin-bottom: 40px;
+}
+.mobail-contacst-link{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 0.2em;
+}
+.mobail-contacst-link.curent{
+    font-size: 20px;
+    color: #4D5AE5;
+}
+.mobail-contacst-item:not(:last-child){
+    margin-bottom: 40px;
+}
+@media screen and (min-width: 428px){
+.mobail-contacst-item{
+   font-size: 36px;
+}
+}
+.mobail-social{
+ gap: 56px;
+}
+.mobail-contacst{
+    margin-bottom: 48px;
+}
+@media screen and (min-width: 428px) {
+    .mobail-contacst-item {
+        font-size: 36px;
+    }
+}
+@media screen and (max-width: 427.98px) {
+    .mobail-contacst-item {
+       justify-content: space-between;
+    }
+}
