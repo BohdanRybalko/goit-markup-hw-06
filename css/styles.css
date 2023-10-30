@@ -134,6 +134,8 @@ li {
   color: #404bbf;
 }
 .header-logo {
+  padding-top: 24px;
+  padding-bottom: 22px;
   font-family: 'Raleway', sans-serif;
   color: #4d5ae5;
   font-weight: 800;
@@ -166,6 +168,11 @@ li {
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .header-nav-mod {
     display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .header-nav-mod:not(:last-child) {
+    margin-bottom: 12px;
   }
 }
 
@@ -205,17 +212,26 @@ li {
 }
 .address-ul {
   font-style: normal;
-  display: flex;
-  gap: 40px;
+}
+
+@media screen and (min-width: 1158px) {
+  .address-ul {
+    display: flex;
+    gap: 40px;
+  }
 }
 .contact {
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #434455;
-  gap: 40px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 1158px) {
+  .contact {
+    font-size: 16px;
+  }
 }
 .contact:hover {
   color: var(--section-hover-focus);
@@ -875,8 +891,8 @@ li {
   stroke: var(--brand-color);
 }
 .menu-toggle {
-  min-height: 40px;
-  min-width: 40px;
+  min-height: 24px;
+  min-width: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -947,17 +963,18 @@ li {
     font-size: 36px;
   }
 }
-@media screen and (min-width: 428px) {
-  .mobail-social {
-    gap: 56px;
-  }
-}
 .mobail-social {
   justify-content: space-between;
 }
+@media screen and (min-width: 428px) {
+  .mobail-social {
+    gap: 56px;
+    justify-content: flex-start;
+  }
+}
 
 .mobail-contacst {
-  margin-bottom: 48px;
+  margin-bottom: 40px;
 }
 @media screen and (min-width: 428px) {
   .mobail-contacst-item {
