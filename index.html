@@ -19,6 +19,7 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <header class="header">
       <div class="div-container container">
@@ -41,27 +42,26 @@
               <a class="header-ads link" href="">Contacts</a>
             </li>
           </ul>
-          <div class="container-mobail">
-            <button
-              class="menu-toggle js-open-menu"
-              aria-expanded="false"
-              aria-controls="mobile-menu"
+
+          <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg
+              width="24"
+              height="24"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                width="24"
-                height="24"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-            </button>
-          </div>
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
         </nav>
 
         <address class="header-address">
@@ -81,7 +81,7 @@
       </div>
     </header>
     <main>
-      <section class="section-one">
+      <section class="section-one hide">
         <div class="container">
           <h1 class="section-h-one">Effective Solutions for Your Business</h1>
           <button class="section-button" type="button" data-modal-open>
@@ -90,7 +90,7 @@
         </div>
       </section>
 
-      <section class="section-h-hiden">
+      <section class="section-h-hiden hide">
         <div class="container">
           <h2 class="visually-hidden">Our advantages</h2>
           <ul class="section-ul-one list">
@@ -146,7 +146,7 @@
           </ul>
         </div>
       </section>
-      <section class="section-doing">
+      <section class="section-doing hide">
         <div class="container">
           <h2 class="section-img-one">What are we doing</h2>
           <ul class="section-img-ul list">
@@ -178,7 +178,7 @@
         </div>
       </section>
 
-      <section class="section-four">
+      <section class="section-four hide">
         <div class="posada container">
           <h2 class="section-img-one list">Our Team</h2>
 
@@ -196,31 +196,33 @@
 
                 <ul class="icons-ul list">
                   <li class="icons-network">
-                    <a class="icons-work" href="#"
-                      ><svg class="svg-web" width="16" height="16">
-                        <use
-                          href="./images/icons.svg#icon-instagram"
-                        ></use></svg
-                    ></a>
+                    <a class="icons-work" href="#">
+                      <svg class="svg-web" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
                   </li>
                   <li class="icons-network">
-                    <a class="icons-work" href="#"
-                      ><svg class="svg-web" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use></svg
-                    ></a>
+                    <a class="icons-work" href="#">
+                      <svg class="svg-web" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
                   </li>
                   <li class="icons-network">
-                    <a class="icons-work" href="#"
-                      ><svg class="svg-web" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use></svg
-                    ></a>
+                    <a class="icons-work" href="#">
+                      <svg class="svg-web" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
                   </li>
 
                   <li class="icons-network">
-                    <a class="icons-work" href="#"
-                      ><svg class="svg-web" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use></svg
-                    ></a>
+                    <a class="icons-work" href="#">
+                      <svg class="svg-web" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -239,31 +241,33 @@
 
                 <ul class="icons-ul list">
                   <li class="icons-network">
-                    <a class="icons-work" href="#"
-                      ><svg class="svg-web" width="16" height="16">
-                        <use
-                          href="./images/icons.svg#icon-instagram"
-                        ></use></svg
-                    ></a>
+                    <a class="icons-work" href="#">
+                      <svg class="svg-web" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
                   </li>
                   <li class="icons-network">
-                    <a class="icons-work" href="#"
-                      ><svg class="svg-web" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use></svg
-                    ></a>
+                    <a class="icons-work" href="#">
+                      <svg class="svg-web" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
                   </li>
                   <li class="icons-network">
-                    <a class="icons-work" href="#"
-                      ><svg class="svg-web" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use></svg
-                    ></a>
+                    <a class="icons-work" href="#">
+                      <svg class="svg-web" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
                   </li>
 
                   <li class="icons-network">
-                    <a class="icons-work" href="#"
-                      ><svg class="svg-web" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use></svg
-                    ></a>
+                    <a class="icons-work" href="#">
+                      <svg class="svg-web" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -281,31 +285,33 @@
                 <p class="section-p-name">Marketing</p>
                 <ul class="icons-ul list">
                   <li class="icons-network">
-                    <a class="icons-work" href="#"
-                      ><svg class="svg-web" width="16" height="16">
-                        <use
-                          href="./images/icons.svg#icon-instagram"
-                        ></use></svg
-                    ></a>
+                    <a class="icons-work" href="#">
+                      <svg class="svg-web" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
                   </li>
                   <li class="icons-network">
-                    <a class="icons-work" href="#"
-                      ><svg class="svg-web" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use></svg
-                    ></a>
+                    <a class="icons-work" href="#">
+                      <svg class="svg-web" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
                   </li>
                   <li class="icons-network">
-                    <a class="icons-work" href="#"
-                      ><svg class="svg-web" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use></svg
-                    ></a>
+                    <a class="icons-work" href="#">
+                      <svg class="svg-web" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
                   </li>
 
                   <li class="icons-network">
-                    <a class="icons-work" href="#"
-                      ><svg class="svg-web" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use></svg
-                    ></a>
+                    <a class="icons-work" href="#">
+                      <svg class="svg-web" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -323,31 +329,33 @@
                 <p class="section-p-name">UI Designer</p>
                 <ul class="icons-ul list">
                   <li class="icons-network">
-                    <a class="icons-work" href="#"
-                      ><svg class="svg-web" width="16" height="16">
-                        <use
-                          href="./images/icons.svg#icon-instagram"
-                        ></use></svg
-                    ></a>
+                    <a class="icons-work" href="#">
+                      <svg class="svg-web" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
                   </li>
                   <li class="icons-network">
-                    <a class="icons-work" href="#"
-                      ><svg class="svg-web" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use></svg
-                    ></a>
+                    <a class="icons-work" href="#">
+                      <svg class="svg-web" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
                   </li>
                   <li class="icons-network">
-                    <a class="icons-work" href="#"
-                      ><svg class="svg-web" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use></svg
-                    ></a>
+                    <a class="icons-work" href="#">
+                      <svg class="svg-web" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
                   </li>
 
                   <li class="icons-network">
-                    <a class="icons-work" href="#"
-                      ><svg class="svg-web" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use></svg
-                    ></a>
+                    <a class="icons-work" href="#">
+                      <svg class="svg-web" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -355,15 +363,16 @@
           </ul>
         </div>
       </section>
-      <section class="section-five">
+      <section class="section-five hide">
         <div class="container">
           <h2 class="section-img-one">Customers</h2>
           <ul class="section-five-ul list">
             <li class="section-five-li">
-              <a class="section-five-a" href="#"
-                ><svg class="section-five-svg" width="104" height="56">
-                  <use href="./images/icons.svg#icon-Logo"></use></svg
-              ></a>
+              <a class="section-five-a" href="#">
+                <svg class="section-five-svg" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo"></use>
+                </svg>
+              </a>
             </li>
             <li class="section-five-li">
               <a class="section-five-a" href="#"
@@ -399,7 +408,8 @@
         </div>
       </section>
     </main>
-    <footer class="footer-one">
+
+    <footer class="footer-one hide">
       <div class="footer-div container">
         <div class="footer-div-two">
           <a class="footer-logo link" href="./index.html"
@@ -551,33 +561,23 @@
         </form>
       </div>
     </div>
+
     <div class="menu-container js-menu-container" id="mobile-menu">
       <button class="menu-toggle js-close-menu" type="button">
-        <svg
-          class="menu-toggle-icons"
-          fill="currentColor"
-          viewBox="0 0 32 32"
-          width="8"
-          height="8"
-        >
+        <svg class="menu-toggle-icons" width="8" height="8">
           <use href="./images/icons.svg#icon-close-black"></use>
-          <path
-            fill-rule="evenodd"
-            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-            clip-rule="evenodd"
-          ></path>
         </svg>
       </button>
 
       <ul class="mobile-menu">
         <li class="movile-menu-items">
-          <a class="link" href="mobile-menu-link">Studio</a>
+          <a class="mobile-menu aktive link" href="">Studio</a>
         </li>
         <li class="movile-menu-items">
-          <a class="link" href="mobile-menu-link">Portfolio</a>
+          <a class="mobile-menu link" href="">Portfolio</a>
         </li>
         <li class="movile-menu-items">
-          <a class="link" href="mobile-menu-link">Contacts</a>
+          <a class="mobile-menu link" href="">Contacts</a>
         </li>
       </ul>
       <ul class="mobail-contacst">
@@ -623,6 +623,7 @@
         </li>
       </ul>
     </div>
+
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
