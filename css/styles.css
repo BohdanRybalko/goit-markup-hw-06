@@ -152,10 +152,6 @@ li {
     row-gap: 64px;
   }
 }
-@media screen and (min-width: 1158px) {
-  .header-mod {
-  }
-}
 
 .svg-web {
   fill: #f4f4fd;
@@ -425,10 +421,6 @@ li {
     gap: 8px;
   }
 }
-@media screen and (min-width: 320px) {
-  .section-p {
-  }
-}
 .section-p {
   font-size: 16px;
   line-height: 1.5;
@@ -652,10 +644,6 @@ li {
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .form-footer {
     flex-direction: row;
-  }
-}
-@media screen and (min-width: 1158px) {
-  .form-footer {
   }
 }
 .label-footer {
