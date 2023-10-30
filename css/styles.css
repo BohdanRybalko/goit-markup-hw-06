@@ -347,7 +347,6 @@ li {
 @media screen and (min-width: 768px) {
   .section-one {
     font-size: 56px;
-    font-style: normal;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 1.12px;
@@ -356,9 +355,7 @@ li {
 
 @media screen and (min-width: 1158px) {
   .section-h-one {
-    max-width: 496px;
     text-align: center;
-    margin: 0 auto;
   }
 }
 
