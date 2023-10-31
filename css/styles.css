@@ -318,14 +318,12 @@ li {
   margin-right: auto;
 }
 @media (min-resolution: 192dpi) {
-  .section-one  {
+  .section-one {
     background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/people-office_desk@2x.jpg);
-}
-    
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office_desk@2x.jpg);
   }
 }
 
